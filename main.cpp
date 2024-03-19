@@ -8,10 +8,6 @@
 class Student
 {
 public:
-	Student()
-	{
-
-	}
 	void setfam(string fam) 
 	{
 		this->fam = fam;
@@ -60,8 +56,6 @@ private:
 	int phys;
 	int stip;
 };
-unsigned long seed = 1;
-//  у тех у кого 5 5 делаем стипендию 10к у кого 4/5 или 5/4 ставим 8к и у кого 4 4 ставим 5к у всех остальных ставим рандомную стипендию до 4к 
 
 int main()
 {
